@@ -1,0 +1,35 @@
+# spool parameters
+# all measurements are in millimeters
+spool_diameter = 200     #the spool diameter
+spool_base_width = 50    #this can be any number as it creates the bushing
+spool_base_height = 67.2 #the width of the spool
+
+#TODO
+#motor parameters
+screw_diameter = 2
+#the positians of the top right screw from the center of the motor
+motor_screw_x = 10
+motor_screw_y = 10
+motor_length = 30
+motor_width = 30
+motor_height = 10
+
+#TODO
+# camera mount parameters
+camera_mount_height = 2
+camera_mount_width = 50
+#these are the positions of the camera mount relative to the center of the motor
+camera_mount_x = 100        # reaches out in front of spool diameter
+camera_mount_y = 30         #half the spool base width
+camera_filament_offset = 12 #the distance from the camera to the filament guide
+filament_max_diameter = 2   #the maximum diameter of the filament
+
+#shaft parameters
+#TODO
+motor_shaft_diameter = 1
+spool_shaft_diameter = 10
+
+#filament camera guide parameters
+
+#generic parameters
+wall_thickness = 3
